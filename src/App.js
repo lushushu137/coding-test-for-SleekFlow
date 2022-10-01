@@ -76,13 +76,13 @@ const App = () => {
             </Grid>
             <Grid xs={10} height="100vh">
               <Switch>
-                <Route path="/" exact={true}>
+                <Route path="/sleekflow-coding-test/" exact={true}>
                   <Welcome />
                 </Route>
-                <Route path="/contact">
+                <Route path="/sleekflow-coding-test/contact">
                   <Contacts />
                 </Route>
-                <Redirect to="/" />
+                <Redirect to="/sleekflow-coding-test/" />
               </Switch>
             </Grid>
           </Grid>

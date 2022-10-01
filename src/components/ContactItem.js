@@ -18,7 +18,7 @@ const ContactItem = (props) => {
 
   return (
     <NavLink
-      to={`/contact/${id}`}
+      to={`/sleekflow-coding-test/contact/${id}`}
       style={
         styleFromVirtualScroll
           ? {

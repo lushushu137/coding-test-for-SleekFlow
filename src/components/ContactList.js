@@ -26,10 +26,10 @@ const ContactList = (props) => {
 
   // get selected Id from URL
   useEffect(() => {
-    if (location.pathname === "/contact") {
+    if (location.pathname === "/sleekflow-coding-test/contact") {
       setSelectedId(null);
     } else {
-      const id = location.pathname.split("/")[2];
+      const id = location.pathname.split("/")[3];
       setSelectedId(parseInt(id));
     }
   }, [location]);
@@ -78,14 +78,14 @@ const ContactList = (props) => {
     await getContacts(1);
     setPage(1);
     setEnbaleScrollToLoad(true);
-    history.push({ pathname: "/contact" });
+    history.push({ pathname: "/sleekflow-coding-test/contact" });
   }, [history]);
 
   const handleSearchResult = useCallback(
     (res) => {
       scrollArea.current.scrollTop = 0;
       setEnbaleScrollToLoad(false);
-      history.push({ pathname: "/contact" });
+      history.push({ pathname: "/sleekflow-coding-test/contact" });
       setCharacterList(res);
     },
     [history]

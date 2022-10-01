@@ -12,7 +12,7 @@ const SideBar = (props) => {
         height: "90%",
       }}
     >
-      <NavLink to="/" exact={true}>
+      <NavLink to="/sleekflow-coding-test/" exact={true}>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/800px-Rick_and_Morty.svg.png"
           width="100%"
@@ -21,7 +21,7 @@ const SideBar = (props) => {
         ></img>
       </NavLink>
       <MenuList>
-        <NavLink to="/contact" exact={true}>
+        <NavLink to="/sleekflow-coding-test/contact" exact={true}>
           <ListItemButton>
             <Typography
               variant="h7"
