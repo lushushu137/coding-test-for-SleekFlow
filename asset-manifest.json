@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sleekflow-coding-test/static/css/main.3adab1e0.css",
-    "main.js": "/sleekflow-coding-test/static/js/main.265d671c.js",
+    "main.js": "/sleekflow-coding-test/static/js/main.e6e8d408.js",
     "static/js/787.9f4dfc8a.chunk.js": "/sleekflow-coding-test/static/js/787.9f4dfc8a.chunk.js",
     "static/media/canDo.png": "/sleekflow-coding-test/static/media/canDo.285390f9c99dca97ebaa.png",
     "static/media/empty.png": "/sleekflow-coding-test/static/media/empty.6f2920117553453b4ac2.png",
     "index.html": "/sleekflow-coding-test/index.html",
     "main.3adab1e0.css.map": "/sleekflow-coding-test/static/css/main.3adab1e0.css.map",
-    "main.265d671c.js.map": "/sleekflow-coding-test/static/js/main.265d671c.js.map",
+    "main.e6e8d408.js.map": "/sleekflow-coding-test/static/js/main.e6e8d408.js.map",
     "787.9f4dfc8a.chunk.js.map": "/sleekflow-coding-test/static/js/787.9f4dfc8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3adab1e0.css",
-    "static/js/main.265d671c.js"
+    "static/js/main.e6e8d408.js"
   ]
 }
