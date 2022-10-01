@@ -1,6 +1,6 @@
 # Rick and Morty Contacts
 ## 🪄 How to start
-1. It is deployed on: xxxx. Click to see.
+1. It is deployed on Github Page: https://lushushu137.github.io/sleekflow-coding-test. Click to see.
 2. Or, download the repository, run the following code.
 
 ```
