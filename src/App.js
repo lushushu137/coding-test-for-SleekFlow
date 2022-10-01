@@ -4,7 +4,7 @@ import { purple } from "@mui/material/colors";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Redirect,
   Switch,
