@@ -69,20 +69,20 @@ const App = () => {
     <div className="app">
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Router>
+        <Router basename="/sleekflow-coding-test">
           <Grid container>
             <Grid xs={2}>
               <SideBar />
             </Grid>
             <Grid xs={10} height="100vh">
               <Switch>
-                <Route path="/sleekflow-coding-test/" exact={true}>
+                <Route path="/" exact={true}>
                   <Welcome />
                 </Route>
-                <Route path="/sleekflow-coding-test/contact">
+                <Route path="/contact">
                   <Contacts />
                 </Route>
-                <Redirect to="/sleekflow-coding-test/" />
+                <Redirect to="/" />
               </Switch>
             </Grid>
           </Grid>

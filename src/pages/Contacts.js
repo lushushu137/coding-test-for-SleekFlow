@@ -35,13 +35,13 @@ const Contacts = () => {
             }}
           >
             <Switch>
-              <Route path="/sleekflow-coding-test/contact" exact={true}>
+              <Route path="/contact" exact={true}>
                 <Empty />
               </Route>
-              <Route path="/sleekflow-coding-test/contact/:id" exact={true}>
+              <Route path="/contact/:id" exact={true}>
                 <PersonDetail />
               </Route>
-              <Redirect to="/sleekflow-coding-test/contact" />
+              <Redirect to="/contact" />
             </Switch>
           </Box>
         </Grid>
