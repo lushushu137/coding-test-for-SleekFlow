@@ -4,7 +4,7 @@ import { purple } from "@mui/material/colors";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Redirect,
   Switch,
@@ -69,7 +69,7 @@ const App = () => {
     <div className="app">
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Router basename="/sleekflow-coding-test">
+        <Router>
           <Grid container>
             <Grid xs={2}>
               <SideBar />
