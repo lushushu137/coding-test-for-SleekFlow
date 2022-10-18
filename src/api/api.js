@@ -50,6 +50,19 @@ export const getAllCharacters = async () => {
   for await (const res of asyncPool(6, params, getCharactersByPage)) {
     result.push(...res.results);
   }
+  // const taskList = [];
+  // for (let i = 2; i < firstPage.info.pages + 1; i++) {
+  //   taskList.push(async () => await getCharactersByPage(i));
+  // }
+  // Promise.all(taskList.map((task) => task()))
+  //   .then((resList) => {
+  //     resList.forEach((res) => {
+  //       result.push(...res.results);
+  //     });
+  //   })
+  //   .catch((err) => {
+  //     console.log("err: ", err);
+  //   });
 
   return result;
 };

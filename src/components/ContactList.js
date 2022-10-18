@@ -29,7 +29,7 @@ const ContactList = (props) => {
     if (location.pathname === "/contact") {
       setSelectedId(null);
     } else {
-      const id = location.pathname.split("/")[3];
+      const id = location.pathname.split("/")[2];
       setSelectedId(parseInt(id));
     }
   }, [location]);
